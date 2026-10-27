@@ -1,0 +1,46 @@
+{
+  "company": "BETONIKA",
+  "phone": "+421 900 123 456",
+  "email": "info@betonika.sk",
+  "address": "Stavbárska 12, 010 01 Žilina",
+  "hero": {
+    "eyebrow": "Stavebná firma · od roku 2008",
+    "title": "Staviame domy, ktoré vydržia generácie",
+    "text": "Od základovej dosky po kľúče v ruke. Rodinné domy, rekonštrukcie a komerčné stavby s pevným rozpočtom a termínom.",
+    "cta": "Nezáväzná ponuka"
+  },
+  "stats": [
+    { "value": 16, "suffix": "+", "label": "rokov skúseností" },
+    { "value": 240, "suffix": "", "label": "dokončených stavieb" },
+    { "value": 38, "suffix": "", "label": "kvalifikovaných remeselníkov" },
+    { "value": 98, "suffix": "%", "label": "spokojných klientov" }
+  ],
+  "services": [
+    { "title": "Rodinné domy na kľúč", "text": "Kompletná realizácia od projektu a stavebného povolenia až po kolaudáciu a odovzdanie kľúčov." },
+    { "title": "Rekonštrukcie a prístavby", "text": "Zateplenie, výmena striech, nadstavby a modernizácia bytov či domov bez zbytočných prekvapení." },
+    { "title": "Komerčné stavby a haly", "text": "Skladové haly, prevádzky a administratívne budovy s dôrazom na rýchlu návratnosť investície." },
+    { "title": "Zemné a betonárske práce", "text": "Výkopy, základy, oporné múry, spevnené plochy a prípojky sietí vlastnou technikou." }
+  ],
+  "projects": [
+    { "title": "Vila Terasa", "type": "Rodinný dom", "year": "2025", "image": "" },
+    { "title": "Logistické centrum Nord", "type": "Hala", "year": "2024", "image": "" },
+    { "title": "Meštiansky dom", "type": "Rekonštrukcia", "year": "2024", "image": "" },
+    { "title": "Bytový dom Lipa", "type": "Bytový dom", "year": "2023", "image": "" },
+    { "title": "Dom v svahu", "type": "Rodinný dom", "year": "2023", "image": "" }
+  ],
+  "process": [
+    { "title": "Konzultácia a obhliadka", "text": "Prejdeme pozemok, vaše predstavy a rozpočet. Zdarma a nezáväzne." },
+    { "title": "Projekt a pevná ponuka", "text": "Dostanete detailný rozpočet a harmonogram. Cena sa po podpise nemení." },
+    { "title": "Realizácia", "text": "Vlastné tímy, týždenné reporty a fotodokumentácia priebehu stavby." },
+    { "title": "Kolaudácia a záruka", "text": "Odovzdáme hotové dielo a poskytujeme 5-ročnú záruku na práce." }
+  ],
+  "testimonials": [
+    { "name": "Marek a Jana K.", "role": "Rodinný dom, Žilina", "text": "Dom stál v termíne a presne v cene, ktorú nám sľúbili. Komunikácia bola od prvého dňa výborná." },
+    { "name": "Ing. Peter S.", "role": "Majiteľ výrobnej haly", "text": "Hala bola hotová o dva týždne skôr. Profesionálny prístup a čistá práca na stavbe." },
+    { "name": "Eva M.", "role": "Rekonštrukcia, Martin", "text": "Z rozpadajúceho sa domu urobili moderné bývanie. Odporúčame každému, kto váha." }
+  ],
+  "cta": {
+    "title": "Poďme postaviť váš projekt",
+    "text": "Napíšte nám a do 24 hodín sa vám ozveme s ďalším postupom."
+  }
+}

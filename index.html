@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BETONIKA – Stavebná firma | Domy na kľúč, rekonštrukcie, haly</title>
+<meta name="description" content="Stavebná firma BETONIKA: rodinné domy na kľúč, rekonštrukcie, haly a zemné práce s pevnou cenou a termínom.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header id="top"><a class="logo" href="#hero"><span class="logo-mark"></span><b id="logo">BETONIKA</b></a>
+<nav><a href="#sluzby">Služby</a><a href="#projekty">Projekty</a><a href="#postup">Postup</a><a href="#referencie">Referencie</a><a class="btn sm" href="#kontakt">Kontakt</a></nav></header>
+
+<section class="hero" id="hero">
+<div class="grid-bg"></div><div class="glow" id="glow"></div>
+<div class="wrap">
+<p class="eyebrow" id="h-eyebrow"></p>
+<h1 id="h-title" aria-label=""></h1>
+<p class="lead rv" id="h-text"></p>
+<div class="rv" style="--d:.2s"><a class="btn" id="h-cta" href="#kontakt"></a><a class="btn ghost" href="#projekty">Naše projekty</a></div>
+</div>
+<div class="scroll-hint"><span></span></div>
+</section>
+
+<div class="marquee"><div id="marquee"></div></div>
+
+<section class="stats"><div class="wrap" id="stats"></div></section>
+
+<section id="sluzby"><div class="wrap">
+<p class="eyebrow rv">Čo robíme</p><h2 class="rv">Služby od základov po strechu</h2>
+<div class="cards" id="services"></div></div></section>
+
+<section id="projekty" class="dark"><div class="wrap">
+<p class="eyebrow rv">Realizácie</p><h2 class="rv">Vybrané projekty</h2>
+<div class="projects" id="projects"></div></div></section>
+
+<section id="postup"><div class="wrap">
+<p class="eyebrow rv">Ako pracujeme</p><h2 class="rv">Štyri kroky k hotovému dielu</h2>
+<div class="steps" id="steps"><div class="line"><i id="line"></i></div></div></div></section>
+
+<section id="referencie" class="dark"><div class="wrap">
+<p class="eyebrow rv">Referencie</p><h2 class="rv">Čo hovoria klienti</h2>
+<div class="quotes" id="quotes"></div></div></section>
+
+<section id="kontakt" class="cta"><div class="wrap two">
+<div><p class="eyebrow rv">Kontakt</p><h2 class="rv" id="c-title"></h2><p class="lead rv" id="c-text"></p>
+<ul class="info rv" id="info"></ul></div>
+<form class="rv" name="kontakt" method="POST" data-netlify="true" action="/?odoslane">
+<input type="hidden" name="form-name" value="kontakt">
+<label>Meno<input name="meno" required></label>
+<label>E-mail<input name="email" type="email" required></label>
+<label>Správa<textarea name="sprava" rows="4" required></textarea></label>
+<button class="btn" type="submit">Odoslať dopyt</button>
+</form></div></section>
+
+<footer><div class="wrap"><span id="f-name"></span><span>© <span id="yr"></span> Všetky práva vyhradené</span></div></footer>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+backend:
+  name: github
+  repo: matejglustik/betonika   
+  branch: main
+media_folder: images/uploads
+public_folder: /images/uploads
+locale: sk
+collections:
+  - name: web
+    label: Obsah webu
+    files:
+      - name: site
+        label: Celá stránka
+        file: content/site.json
+        fields:
+          - { name: company, label: Názov firmy, widget: string }
+          - { name: phone, label: Telefón, widget: string }
+          - { name: email, label: E-mail, widget: string }
+          - { name: address, label: Adresa, widget: string }
+          - name: hero
+            label: Úvodná sekcia
+            widget: object
+            fields:
+              - { name: eyebrow, label: Malý nadpis, widget: string }
+              - { name: title, label: Hlavný nadpis, widget: string }
+              - { name: text, label: Text, widget: text }
+              - { name: cta, label: Text tlačidla, widget: string }
+          - name: stats
+            label: Čísla
+            widget: list
+            fields:
+              - { name: value, label: Hodnota, widget: number }
+              - { name: suffix, label: Prípona (+, %), widget: string, required: false }
+              - { name: label, label: Popis, widget: string }
+          - name: services
+            label: Služby
+            widget: list
+            fields:
+              - { name: title, label: Názov, widget: string }
+              - { name: text, label: Popis, widget: text }
+          - name: projects
+            label: Projekty
+            widget: list
+            fields:
+              - { name: title, label: Názov, widget: string }
+              - { name: type, label: Typ, widget: string }
+              - { name: year, label: Rok, widget: string }
+              - { name: image, label: Fotka, widget: image, required: false }
+          - name: process
+            label: Postup
+            widget: list
+            fields:
+              - { name: title, label: Názov kroku, widget: string }
+              - { name: text, label: Popis, widget: text }
+          - name: testimonials
+            label: Referencie
+            widget: list
+            fields:
+              - { name: name, label: Meno, widget: string }
+              - { name: role, label: Popis klienta, widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: cta
+            label: Kontaktná sekcia
+            widget: object
+            fields:
+              - { name: title, label: Nadpis, widget: string }
+              - { name: text, label: Text, widget: text }
